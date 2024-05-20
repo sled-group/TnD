@@ -80,7 +80,7 @@ parser.add_argument("--teacher_demo_only", type=str, default='False')
 # set flag for the double CLM experiment
 parser.add_argument("--double_clm", type=str, default='False')
 
-# set hyperparameters for smaller child models
+# set hyperparameters for smaller student models
 parser.add_argument("--n_head", type=int, default=12)
 parser.add_argument("--n_embd", type=int, default=768)
 
